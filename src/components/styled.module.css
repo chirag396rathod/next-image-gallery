@@ -1,0 +1,10 @@
+.ImageWrapper {
+  width: 100%;
+  height: 100%;
+}
+.ImageWrapper img {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover;
+  border-radius: 6px;
+}
