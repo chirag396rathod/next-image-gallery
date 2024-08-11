@@ -35,7 +35,7 @@ const NavBar = () => {
             <Nav.Link as={Link} href="/isr" active={pathName === "/isr"}>
               ISR
             </Nav.Link>
-            <Nav.Link as={Link} href="/search" active={pathName === "/isr"}>
+            <Nav.Link as={Link} href="/search" active={pathName === "/search"}>
               Search
             </Nav.Link>
             <NavDropdown title="Topics" id="topics-dropdown">
