@@ -26,7 +26,6 @@ export default function SearchPage() {
         setSearchResults(images);
       } catch (error) {
         console.log(error);
-        setError(true);
       } finally {
         setLoading(false);
       }
